@@ -14,165 +14,25 @@
 
 	<body>
 		<!-- webpage start ====================================================================-->
-		<aside class="verticalMenu">
-			<ul>
-				<li class="topAside">
-					<a class="main" href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
-					<ul class="sub">
-						<li><a href="#">Creative Agency</a></li>
-						<li><a href="#">Digital Studio</a></li>
-						<li><a href="#">Business Startup</a></li>
-						<li><a href="#">Corporate Business</a></li>
-					</ul>
-				</li>
-				<li class="topAside">
-					<a class="main" href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
-					<ul class="sub">
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Our Team</a></li>
-						<li><a href="#">Team Details</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Pricing Table</a></li>
-						<li><a href="#">404 Page</a></li>
-						<li><a href="#">Coming Soon</a></li>
-					</ul>
-				</li>
-				<li class="topAside">
-					<a class="main" href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
-					<ul class="sub">
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Services Two</a></li>
-						<li><a href="#">Services Three</a></li>
-						<li><a href="#">Services Four</a></li>
-					</ul>
-				</li>
-				<li class="topAside">
-					<a class="main" href="#">Portfolio <i class="fa-solid fa-chevron-down"></i></a>
-					<ul class="sub">
-						<li><a href="#">Portfolio Creative</a></li>
-						<li><a href="#">Portfolio Digital</a></li>
-						<li><a href="#">Portfolio Business</a></li>
-						<li><a href="#">Portfolio Corporate</a></li>
-						<li><a href="#">Portfolio Two Columns</a></li>
-						<li><a href="#">Portfolio Three Columns</a></li>
-						<li><a href="#">Portfolio Four Columns</a></li>
-						<li><a href="#">Portfolio Details</a></li>
-					</ul>
-				</li>
-				<li class="topAside">
-					<a class="main" href="#">Blogs <i class="fa-solid fa-chevron-down"></i></a>
-					<ul class="sub">
-						<li><a href="#">Blog Grid</a></li>
-						<li><a href="#">Blog Standard</a></li>
-					</ul>
-				</li>
-				<li><a class="main" href="#">Contacts</a></li>
-			</ul>
-		</aside>
-		<header>
-			<figure>
-				<img src="./assets/img/logo-dark.png" alt="error" />
-			</figure>
-			<nav class="horizontalMenu">
-				<ul>
-					<li class="top">
-						<a class="main" href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
-						<ul class="sub">
-							<li><a href="#">Creative Agency</a></li>
-							<li><a href="#">Digital Studio</a></li>
-							<li><a href="#">Business Startup</a></li>
-							<li><a href="#">Corporate Business</a></li>
-						</ul>
-					</li>
-					<li class="top">
-						<a class="main" href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
-						<ul class="sub">
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Our Team</a></li>
-							<li><a href="#">Team Details</a></li>
-							<li><a href="#">Testimonials</a></li>
-							<li><a href="#">Pricing Table</a></li>
-							<li><a href="#">404 Page</a></li>
-							<li><a href="#">Coming Soon</a></li>
-						</ul>
-					</li>
-					<li class="top">
-						<a class="main" href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
-						<ul class="sub">
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Services Two</a></li>
-							<li><a href="#">Services Three</a></li>
-							<li><a href="#">Services Four</a></li>
-						</ul>
-					</li>
-					<li class="top">
-						<a class="main" href="#">Portfolio <i class="fa-solid fa-chevron-down"></i></a>
-						<ul class="sub">
-							<li><a href="#">Portfolio Creative</a></li>
-							<li><a href="#">Portfolio Digital</a></li>
-							<li><a href="#">Portfolio Business</a></li>
-							<li><a href="#">Portfolio Corporate</a></li>
-							<li><a href="#">Portfolio Two Columns</a></li>
-							<li><a href="#">Portfolio Three Columns</a></li>
-							<li><a href="#">Portfolio Four Columns</a></li>
-							<li><a href="#">Portfolio Details</a></li>
-						</ul>
-					</li>
-					<li class="top">
-						<a class="main" href="#">Blogs <i class="fa-solid fa-chevron-down"></i></a>
-						<ul class="sub">
-							<li><a href="#">Blog Grid</a></li>
-							<li><a href="#">Blog Standard</a></li>
-						</ul>
-					</li>
-					<li><a class="main" href="#">Contact</a></li>
-				</ul>
-			</nav>
-			<nav class="buttons">
-				<button id="purchaseNow" class="buttonPrimary">Purchase Now</button>
-				<button id="hamburger">
-					<i class="fa-solid fa-bars"></i>
-				</button>
-			</nav>
-		</header>
+
+		<!-- col-12 col-lg-3 -->
 		<main>
-			<section class="background">
-				<nav id="colors">
-					<div class="palette">
-						<p>Color Palette</p>
-						<button class="circular blue"></button>
-						<button class="circular black"></button>
-						<button class="circular indigo"></button>
-						<button class="circular coral"></button>
-						<button class="circular teal"></button>
-						<button class="circular green"></button>
-						<button class="circular grey"></button>
-						<button class="circular orange"></button>
+			<div class="container-fluid container-sm h-100">
+				<div class="row h-100 g-3 p-lg-5 py-3">
+					<div class="col-12 col-lg-3">
+						<div class="searchSection h-100 w-100 p-3 shadow-lg d-flex flex-column align-items-center justify-content-center">
+							<input id="search" type="text" class="m-3 form-control shadow-sm" name="search" placeholder="Write the name of a country" />
+							<button id="button" class="m-3 btn btn-success">Search</button>
+						</div>
 					</div>
-					<button class="toggle"><i class="fa-solid fa-palette"></i></button>
-				</nav>
-				<div class="rightRectangle"></div>
-				<div class="blurredCircle"></div>
-				<div class="movingCircle"></div>
-				<div class="hero">
-					<article>
-						<h1>
-							<span id="creative">Creative</span><br />
-							<span id="agency">Agency</span> <span id="jura">Jura.</span>
-						</h1>
-						<p>We are an agency that could help you with creative and digital.</p>
-						<button class="buttonPrimary">Our Services</button>
-					</article>
-					<div class="images">
-						<figure class="left">
-							<img src="./assets/img/hero-banners/hero-banner-2.jpg" alt="error" />
-						</figure>
-						<figure class="right">
-							<img src="./assets/img/hero-banners/hero-banner-3.jpg" alt="error" />
-						</figure>
+					<div class="col-12 col-lg-9">
+						<div class="dataSection h-100 w-100 p-3 shadow-lg col-12 col-lg-9 d-flex flex-column align-items-center justify-content-center">
+							<h1 id="h1" class="h1 p-5"></h1>
+							<p id="textOutput" class="data p-5">All information will be shown here.</p>
+						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 		</main>
 
 		<!-- webpage end ======================================================================-->
